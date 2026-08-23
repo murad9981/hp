@@ -9,4 +9,4 @@ if st.button('Predict'):
     data = [[Area]]
     prediction = model.predict(data)
 
-    st.write('Predicted Price:', prediction[0])
+    st.write('Predicted Price:', prediction)
