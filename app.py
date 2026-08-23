@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 model = joblib.load('hpr.pkl')
 st.title('House Price Prediction')
-st.image('h.jpg')
+st.image("h.jpg")
 Area = st.number_input('SQUARE_FT')
 
 if st.button('Predict'):
